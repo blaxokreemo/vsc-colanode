@@ -204,7 +204,7 @@ services:
     container_name: colanode_web
     restart: always
     ports:
-      - '${COLANODE_WEB_PORT}:80'
+      - '${COLANODE_WEB_PORT}:${COLANODE_WEB_PORT}'
     networks:
       - colanode_network
 
