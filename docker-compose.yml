@@ -216,3 +216,4 @@ volumes:
 networks:
   colanode_network:
     driver: bridge
+    name: colanode_network
